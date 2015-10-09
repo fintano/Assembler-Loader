@@ -1,4 +1,4 @@
-#include "20101682.h"
+#include "main.h"
 
 
 int opcode_sum=0;

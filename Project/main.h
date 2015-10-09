@@ -1,5 +1,5 @@
-#ifndef __20101682_H__
-#define __20101682_H__
+#ifndef __MAIN_H__
+#define __MAIN_H__
 
 #include <stdio.h>
 #include <string.h>
@@ -14,8 +14,8 @@
 #define MAX_HASH_SIZE 20
 
 typedef struct _value{
-	char value[10]; // ParameterÀÇ String °ª
-	int exist; // value°¡ µé¾î¿Ô´ÂÁö °Ë»ç
+	char value[10]; // ParameterÃ€Ã‡ String Â°Âª
+	int exist; // valueÂ°Â¡ ÂµÃ©Â¾Ã®Â¿Ã”Â´Ã‚ÃÃ¶ Â°Ã‹Â»Ã§
 }value;
 
 typedef enum {A,R} Type;
